@@ -1,10 +1,11 @@
 //Business Logic for List of Places
 function PlaceList() {
   this.places = [];
-  this.currentId = 0;
 }
 
-
+PlaceList.prototype.addPlace = function(place) {
+  this.places.push(place);
+}
 
 // Business Logic for Places
 function Place(name, location, landmarks, season) {
