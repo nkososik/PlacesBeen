@@ -26,8 +26,7 @@ Place.prototype.iLove = function() {
 let placeList = new PlaceList();
 let place = new Place("Portland", "United States", ["St. John's Bridge", "Burnside Skatepark", "Multnomah Falls"], "Spring");
 let place2 = new Place("Seattle", "United States", ["Space Needle", "Pike Place Market", "CHAZ"], "Summer");
-PlaceList.addPlace(place);
-PlaceList.addPlace(place2);
-
+placeList.addPlace(place);
+placeList.addPlace(place2);
 
 // User Interface Logic
