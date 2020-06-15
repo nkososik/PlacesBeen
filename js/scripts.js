@@ -22,3 +22,12 @@ Place.prototype.fullLocation = function() {
 Place.prototype.iLove = function() {
   return "I Love " + this.city + "!!";
 }
+
+let placeList = new PlaceList();
+let place = new Place("Portland", "United States", ["St. John's Bridge", "Burnside Skatepark", "Multnomah Falls"], "Spring");
+let place2 = new Place("Seattle", "United States", ["Space Needle", "Pike Place Market", "CHAZ"], "Summer");
+PlaceList.addPlace(place);
+PlaceList.addPlace(place2);
+
+
+// User Interface Logic
