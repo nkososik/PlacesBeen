@@ -8,9 +8,17 @@ PlaceList.prototype.addPlace = function(place) {
 }
 
 // Business Logic for Places
-function Place(name, location, landmarks, season) {
-  this.name = name;
-  this.location = location;
+function Place(city, country, landmarks, season) {
+  this.city = city;
+  this.country = country;
   this.landmarks = landmarks;
   this.season = season;
+}
+
+Place.prototype.fullLocation = function() {
+  return this.city + ", " + this.country;
+}
+
+Place.prototype.iLove = function() {
+  return "I Love " + this.city + "!!";
 }
