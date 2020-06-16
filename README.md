@@ -12,7 +12,6 @@ _This project focuses on the use of BDD, utilizing HTML, CSS, and JS to create a
 
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-|
 | **Program Contains places with Appropriate Key-Value-Pairs**| Input: "" | Output: "" |
 | **Program Contains and Uses Constructor (Place) to house Values Inside Place Objects** | User input: "city, country, landmarks, season" | Output: [city, country, landmarks, season] |
 | **Program Contains and Uses Constructor (PlaceList) to house a List of Place Objects** | Input: "Place object" | Output: [Place] |
